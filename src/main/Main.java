@@ -21,7 +21,7 @@ public class Main {
 
         newline();
 
-        Monkey cGeorge = new Monkey("curious george", false);
+        Monkey cGeorge = new Monkey("curious george");
         Monkey tGeorge = new Monkey("tired george", true);
         cGeorge.printName();
         cGeorge.makeNoise();
