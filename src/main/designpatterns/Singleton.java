@@ -2,7 +2,7 @@ package designpatterns;
 
 public class Singleton {
 
-    // Throughout the entire program, there can only be ONE instance of Singleton.
+    // Throughout the entire program, there can only be ONE instance of Singleton per thread.
     private static volatile Singleton instance;
     private String data;
 
