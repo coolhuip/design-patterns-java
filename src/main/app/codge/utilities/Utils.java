@@ -7,7 +7,7 @@
  * <br>
  * If (it's slow) patch it;
  */
-package main.app.codge.utilities;
+package app.codge.utilities;
 
 
 /**
@@ -34,6 +34,12 @@ public class Utils {
      */
     public static void print(Object obj, int delNewline) {
         System.out.print(obj);
+    }
+    /**
+     * Python-style print() function.
+     */
+    public static void print() {
+        System.out.println();
     }
     // ----------------------------------------------------------------
 
