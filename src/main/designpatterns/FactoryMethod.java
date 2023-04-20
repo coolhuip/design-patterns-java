@@ -2,5 +2,6 @@ package designpatterns;
 
 import static app.codge.utilities.Utils.*;
 
-public class Factory {
+public class FactoryMethod {
+
 }
