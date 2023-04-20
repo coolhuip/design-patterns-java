@@ -4,8 +4,7 @@
 //import learn_interface_abstract.Cat;
 //import learn_interface_abstract.Monkey;
 
-import static app.codge.utilities.Utils.print;
-import static app.codge.utilities.Utils.newline;
+import static app.codge.utilities.Utils.*;
 
 
 public class Main {
