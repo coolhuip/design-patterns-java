@@ -1,0 +1,5 @@
+let AC = "abstract class(es)"
+
+- You CANNOT instantiate abstract classes.
+- Abstract methods are body-less methods meant to be inherited by child classes.
+
