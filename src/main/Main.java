@@ -1,10 +1,17 @@
 /**
  * You have a right to think freely.
  */
-//import learn_interface_abstract.Cat;
-//import learn_interface_abstract.Monkey;
-
 import static app.codge.utilities.Utils.*;
+
+import learn_interface_abstract.Cat;
+import learn_interface_abstract.Monkey;
+
+import designpatterns.factorymethod.BeefBurgerRestaurant;
+import designpatterns.factorymethod.VeggieBurgerRestaurant;
+import designpatterns.factorymethod.Restaurant;
+import designpatterns.factorymethod.Burger;
+import designpatterns.factorymethod.BeefBurger;
+import designpatterns.factorymethod.VeggieBurger;
 
 
 public class Main {
@@ -33,10 +40,11 @@ public class Main {
 //        tGeorge.move();
 //        tGeorge.stateOfMind();
 
+        Restaurant beefResto = new BeefBurgerRestaurant();
+        Burger beefBurger = beefResto.orderBurger();
 
-
-
-
+        Restaurant veggieResto = new VeggieBurgerRestaurant();
+        Burger veggieBurger = veggieResto.orderBurger();
 
 
         newline();
