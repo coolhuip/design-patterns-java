@@ -17,7 +17,7 @@ public class Cat extends Animal implements AnimalActionable{
 
     @Override
     public void move() {
-        print(name + "gracefully struts by.");
+        print(name + " gracefully struts by.");
     }
 
 }

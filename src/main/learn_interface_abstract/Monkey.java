@@ -26,13 +26,13 @@ public class Monkey extends Animal implements AnimalActionable{
 
     @Override
     public void move() {
-        if (tired) print(name + " would not put the bong down and get a job.");
+        if (tired) print(name + " would not put his percolator bong down and get a job.");
         else print(name + " hops ahead from tree branch to tree branch.");
     }
 
     public void stateOfMind() {
-        if (tired) print("I have grown tired of hunting and being hunted. I'm tryna eat bananas and chill.");
-        else print("Wow, so those are humans! What are those metal devices with triggers on them for?");
+        if (tired) print(name + ": I have grown tired of hunting and being hunted. I'm tryna eat bananas and chill.");
+        else print(name + ": Wow, so those are humans! What are those metal devices with triggers on them for?");
     }
 
 }
