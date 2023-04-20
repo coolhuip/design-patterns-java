@@ -1,6 +1,7 @@
 package learn_interface_abstract;
 
 import static app.codge.utilities.Utils.print;
+import static app.codge.utilities.Utils.newline;
 
 
 public class Monkey extends Animal implements AnimalActionable{
@@ -11,7 +12,6 @@ public class Monkey extends Animal implements AnimalActionable{
         this.numLegs = 2;
         this.name = name;
     }
-
     public Monkey(String name, boolean tired) {
         this.type = "Monkey";
         this.numLegs = 2;
