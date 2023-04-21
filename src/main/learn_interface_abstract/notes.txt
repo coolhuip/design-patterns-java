@@ -1,5 +1,46 @@
-let AC = "abstract class(es)"
+Commonality between ABSTRACT CLASS vs INTERFACE:
+------------------------------------------------
+1. Abstract methods & interface methods are BOTH UNDEFINED.
+2.
 
-- You CANNOT instantiate abstract classes.
-- Abstract methods are body-less methods meant to be inherited by child classes.
 
+
+
+                              ABSTRACT CLASS
+                              --------------
+* Define a base class that provides some common functionality for its subclasses.
+* Enforce certain behaviours / properties across ALL subclasses.
+* Provide some default implementations for methods while still allowing subclasses
+  to override them if needed.
+
+    E.g., If you're designing a game & you have different types of characters
+          (e.g., warrior, mage, archer), you could define an ABSTRACT CLASS called
+          Character that provides common traits such as health, mana, inventory management, etc.
+
+          Each subclass (e.g., Warrior, Mage, Archer) then EXTENDS the Character class,
+          inheriting the common functionality & overriding or adding methods as needed.
+
+            -> This allows you to reuse code & ensure that all characters have the same
+               basic properties & behaviours.
+
+
+
+
+                                INTERFACE
+                                ---------
+* Define a contract / set of mandatory behaviours.
+* Provide a way for different classes to implement the same set of behaviours.
+* Flexibility: a) Classes can implement multiple interfaces
+               b) Swap in different interfaces at runtime
+
+    E.g., if you're designing a system that can send notifications through
+          different channels (e.g., email, SMS, push notifications), you could
+          define an interface called NotificationChannel that defines a set of
+          methods that each channel MUST implement, such as sendNotification()
+          and getChannelType().
+
+          Then, each channel (e.g., EmailChannel, SmsChannel, PushNotificationChannel)
+          would then implement the NotificationChannel interface, providing its own
+          implementation for the methods.
+
+            -> This allows you to easily swap out different channels as needed w/o breaking code.
