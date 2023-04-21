@@ -21,24 +21,24 @@ public class Main {
         print("===================================================");
         newline();
 
-//        Cat myCat = new Cat("brownie");
-//        myCat.printName();
-//        myCat.makeNoise();
-//        myCat.move();
-//
-//        newline();
-//
-//        Monkey cGeorge = new Monkey("curious george");
-//        Monkey tGeorge = new Monkey("tired george", true);
-//        cGeorge.printName();
-//        cGeorge.makeNoise();
-//        cGeorge.move();
-//        cGeorge.stateOfMind();
-//        newline();
-//        tGeorge.printName();
-//        tGeorge.makeNoise();
-//        tGeorge.move();
-//        tGeorge.stateOfMind();
+        Cat myCat = new Cat("brownie");
+        myCat.printName();
+        myCat.makeNoise();
+        myCat.move();
+
+        newline();
+
+        Monkey cGeorge = new Monkey("curious george");
+        Monkey tGeorge = new Monkey("tired george", true);
+        cGeorge.printName();
+        cGeorge.makeNoise();
+        cGeorge.move();
+        cGeorge.stateOfMind();
+        newline();
+        tGeorge.printName();
+        tGeorge.makeNoise();
+        tGeorge.move();
+        tGeorge.stateOfMind();
 
         Restaurant beefResto = new BeefBurgerRestaurant();
         Burger beefBurger = beefResto.orderBurger();
