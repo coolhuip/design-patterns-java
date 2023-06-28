@@ -5,4 +5,5 @@ public interface AnimalActionable {
 
     void makeNoise();
     void move();
+
 }

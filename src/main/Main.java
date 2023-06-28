@@ -3,6 +3,7 @@
  */
 import static app.codge.utilities.Utils.print;
 
+import learn_interface_abstract.Animal;
 import learn_interface_abstract.Cat;
 import learn_interface_abstract.Monkey;
 
@@ -45,6 +46,10 @@ public class Main {
 
         Restaurant veggieResto = new VeggieBurgerRestaurant();
         Burger veggieBurger = veggieResto.orderBurger();
+
+        Monkey abom = new Monkey("abom");
+        abom.printName();
+        print(abom.type);
 
 
         print();

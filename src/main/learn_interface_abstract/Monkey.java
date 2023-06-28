@@ -7,7 +7,6 @@ public class Monkey extends Animal implements AnimalActionable{
     boolean tired;
 
     public Monkey(String name) {
-        this.type = "Monkey";
         this.numLegs = 2;
         this.name = name;
         this.tired = false;
