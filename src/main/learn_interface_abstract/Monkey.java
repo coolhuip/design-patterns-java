@@ -18,12 +18,10 @@ public class Monkey extends Animal implements AnimalActionable{
         this.tired = tired;
     }
 
-    @Override
     public void makeNoise() {
         print("ooh ooh ah ah");
     }
 
-    @Override
     public void move() {
         if (tired) print(name + " would not put his percolator bong down and get a job.");
         else print(name + " hops ahead from tree branch to tree branch.");

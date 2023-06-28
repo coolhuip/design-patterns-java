@@ -47,11 +47,6 @@ public class Main {
         Restaurant veggieResto = new VeggieBurgerRestaurant();
         Burger veggieBurger = veggieResto.orderBurger();
 
-        Monkey abom = new Monkey("abom");
-        abom.printName();
-        print(abom.type);
-
-
         print();
         print("===================================================");
     }
