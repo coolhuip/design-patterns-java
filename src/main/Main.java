@@ -1,7 +1,7 @@
 /**
  * You have a right to think freely.
  */
-import static app.codge.utilities.Utils.*;
+import static app.codge.utilities.Utils.print;
 
 import learn_interface_abstract.Cat;
 import learn_interface_abstract.Monkey;
@@ -19,14 +19,14 @@ public class Main {
     public static void main(String[] args) {
 
         print("===================================================");
-        newline();
+        print();
 
         Cat myCat = new Cat("brownie");
         myCat.printName();
         myCat.makeNoise();
         myCat.move();
 
-        newline();
+        print();
 
         Monkey cGeorge = new Monkey("curious george");
         Monkey tGeorge = new Monkey("tired george", true);
@@ -34,7 +34,7 @@ public class Main {
         cGeorge.makeNoise();
         cGeorge.move();
         cGeorge.stateOfMind();
-        newline();
+        print();
         tGeorge.printName();
         tGeorge.makeNoise();
         tGeorge.move();
@@ -47,7 +47,7 @@ public class Main {
         Burger veggieBurger = veggieResto.orderBurger();
 
 
-        newline();
+        print();
         print("===================================================");
     }
 

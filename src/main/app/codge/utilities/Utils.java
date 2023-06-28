@@ -5,15 +5,15 @@
  * <br>
  * If (it works) fantastic;
  * <br>
- * If (it's slow) patch it;
+ * If (it's too slow) patch it;
  */
 package app.codge.utilities;
 
 
 /**
- * This is a UTILITY CLASS.
+ * This is a utility class.
  * <br>
- * In other words, all methods are STATIC.
+ * I.e., all methods are STATIC.
  */
 public class Utils {
 
